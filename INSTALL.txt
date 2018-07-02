@@ -1,0 +1,77 @@
+===================================================================================
+*******************************  A U T O S U R F  *********************************
+===================================================================================
+
+    AUTOSURF Program Suite
+
+    Copyright (c) 2018 Missouri University of Science and Technology
+
+    This file is part of AUTOSURF.
+
+    AUTOSURF is a free software: you can redistribute it and/or modify it under 
+    the terms of the GNU General Public License as published by the Free Software 
+    Foundation, either version 3 of the License, or (at your option) any later 
+    version.
+
+    AUTOSURF is distributed in the hope that it will be useful, but WITHOUT ANY 
+    WARRANTY; even without the implied warranty of MERCHANTABILITY or FITNESS FOR 
+    A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with 
+    AUTOSURF.  If not, see <http://www.gnu.org/licenses/>.
+
+-----------------------------------------------------------------------------------
+===================================================================================
+
+
+-----------------------------------------------------------------------------------
+=====           I N S T A L L A T I O N    I N S T R U C T I O N S            =====
+-----------------------------------------------------------------------------------
+
+
+Basic Installation
+==================
+
+1. AUTOSURF binaries
+
+All you need to install AUTOSURF on a Linux system is a Fortran90 compatible 
+compiler (this release is tested against gfortran x.y.z and ifort x.y)
+as well as the LAPACK library. The versions which come by default with your 
+Linux distribution should be sufficient. 
+
+To compile the fortran source code, first unzip and untar the downloaded 
+distribution in the desired location:
+
+tar -xzvf autosurf-rigid4D.tgz
+
+This should create a new directory called AUTOSURF-rigid4D, which contains all the 
+necessary subdirectories and files. 
+
+Now go to the source directory:
+
+cd AUTOSURF-rigid4D/source
+
+and edit the Makefile by adjusting the F90 variable to point to the fortran
+compiler of your choice.
+
+Issuing the command:
+
+make
+
+will compile the source and create the binaries.
+It is also advisable to check whether all binaries are flagged as executable. 
+Otherwise, type:
+
+chmod a+x *.x 
+
+to make them executable.
+
+Now you are ready to construct your first potential energy surface!
+
+
+2. Testing
+
+Maybe at this stage it is a good idea to take a look at the "EXAMPLES" directory.
+
+The easiest way to run some basic tests is to check that the output files for  reproduce the , 
+this will test the fundamental functionality of AUTOSURF.
