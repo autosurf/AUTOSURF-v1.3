@@ -12,31 +12,31 @@
    
 -----------------------------------------------------------------------------------
 
- AUTOSURF is a freely distributed suite of codes for the automated construction of 
- potential energy surfaces (PES) for vdW systems. The fitting algorithms implemented 
- in the code are based on the L-IMLS methodology, and have many advanced features 
- such as options for data-point placement, flexibility to include gradients in the 
- fit, iterative refinement, and symmetry recognition. The code completely automates 
- all the steps and procedures that go into fitting various classes of PESs and 
- interfaces to popular electronic structure codes such as MOLPRO and GAUSSIAN. 
+ AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
+ energy surfaces (PES) for vdW systems. The fitting algorithms implemented in the code are 
+ based on the L-IMLS methodology, and have many advanced features such as options for data-
+ point placement, flexibility to include gradients in the fit, iterative refinement, and 
+ symmetry recognition. The code completely automates all the steps and procedures that go 
+ into fitting various classes of PESs and interfaces to popular electronic structure codes 
+ such as MOLPRO and GAUSSIAN. 
 
- For non-commercial purposes, there is no charge to obtain AUTOSURF package for 
- academic users (research institutes, universities, individuals), the user must 
- simply sign a License Agreement. The License form can be obtained from the authors 
- by email. The link for downloading the most recent version of AUTOSURF will be 
- sent to the email address used in the License form.
+ For non-commercial purposes, there is no charge to obtain AUTOSURF package for academic 
+ users (research institutes, universities, individuals), the user must simply sign a License 
+ Agreement. The License form can be obtained from the authors by email. The link for 
+ downloading the most recent version of AUTOSURF will be sent to the email address used in 
+ the License form.
 
  The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES,   
  and AUTOSURF-PLOT:
- --> AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
+ * AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
  the benchmarking of electronic structure methods, and the development of composite 
  schemes such as complete basis set (CBS) extrapolation.
- --> AUTOSURF-PES carries out the automated construction of the PES to a user-specified     
+ * AUTOSURF-PES carries out the automated construction of the PES to a user-specified     
  accuracy target in a fairly black-box fashion: starting with a sparse 
  set of initial ab initio seed points, the program grows a fitted PES over 
  predefined ranges of energy and coordinates until the desired level of precision 
  is reached. 
- --> AUTOSURF-PLOT permits arbitrary evaluations of the PES, the generation of 
+ * AUTOSURF-PLOT permits arbitrary evaluations of the PES, the generation of 
  plots of 1D or 2D cuts of the surface (with optional relaxation) for any of the 
  internal variables, and also to perform a variety of fitting error analyses in 
  specified energy and coordinate ranges.
