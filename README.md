@@ -26,8 +26,7 @@
  downloading the most recent version of AUTOSURF will be sent to the email address used in 
  the License form.
 
- The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES,   
- and AUTOSURF-PLOT:
+ The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and AUTOSURF-PLOT:
  * AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
  the benchmarking of electronic structure methods, and the development of composite 
  schemes such as complete basis set (CBS) extrapolation.
