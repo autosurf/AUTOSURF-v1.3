@@ -1,8 +1,6 @@
 
 -----------------------------------------------------------------------------------
-
                                  A U T O S U R F      
-                                 
 -----------------------------------------------------------------------------------
 
    AUTOSURF Program Suite
@@ -10,8 +8,10 @@
    Copyright (c) 2019 Missouri University of Science and Technology
 
    This file is part of AUTOSURF.
-   
------------------------------------------------------------------------------------
+
+***********************************************************************************
+                Welcome to the AUTOSURF Program Suite !                         
+***********************************************************************************
 
  AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
  energy surfaces (PES) for vdW systems. The fitting algorithms implemented in the code are 
@@ -36,6 +36,15 @@
  internal variables, and also to perform a variety of fitting error analyses in 
  specified energy and coordinate ranges.
 
+ The standard AUTOSURF (v1.3) package is distributed as a compressed archive file 
+ named autosurf-v1.3.tar.gz, which includes the Fortran source codes of the three 
+ programs conforming AUTOSURF. Once the package have been downloaded, the user 
+ should simply unpack the file in the desired location and execute the corresponding 
+ Makefiles to generate the binaries (the Makefiles has to be modified according to 
+ the user's system requirements). The former is just a brief description of the 
+ installation procedure. Users should read AUTOSURF documentation for more detailed 
+ information.
+
 -----------------------------------------------------------------------------------
 
  In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
@@ -45,19 +54,6 @@
  * MPICH or MPICH2.
  * The Fortran LAPACK Library.
  * Electronic structure code (MOLPRO and/or Gaussian).
-
-***********************************************************************************
-                Welcome to the AUTOSURF Program Suite !                         
-***********************************************************************************
-
- The standard AUTOSURF (v1.3) package is distributed as a compressed archive file 
- named autosurf-v1.3.tar.gz, which includes the Fortran source codes of the three 
- programs conforming AUTOSURF. Once the package have been downloaded, the user 
- should simply unpack the file in the desired location and execute the corresponding 
- Makefiles to generate the binaries (the Makefiles has to be modified according to 
- the user's system requirements). The former is just a brief description of the 
- installation procedure. Users should read AUTOSURF documentation for more detailed 
- information.
 
 -----------------------------------------------------------------------------------
 
@@ -76,8 +72,6 @@
    * DOC/CHANGES.txt:   Release Notes: history of modifications on each version.
    * DOC/COPYRIGHT.txt: The License Agreement under which AUTOSURF can be used.
    * DOC/INSTALL.txt:   Instructions to compile and install the program.
-
-
 
 -----------------------------------------------------------------------------------
    For further information, visit the web page:
