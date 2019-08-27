@@ -11,10 +11,6 @@
 
 -----------------------------------------------------------------------------------
 
-```
-Welcome to the AUTOSURF Program Suite !                         
-```
-
  AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
  energy surfaces (PES) for vdW systems. The fitting algorithms implemented in the code are 
  based on the L-IMLS methodology, and have many advanced features such as options for data-
@@ -22,6 +18,10 @@ Welcome to the AUTOSURF Program Suite !
  symmetry recognition. The code completely automates all the steps and procedures that go 
  into fitting various classes of PESs and interfaces to popular electronic structure codes 
  such as MOLPRO and GAUSSIAN. 
+
+```
+Welcome to the AUTOSURF Program Suite !                         
+```
 
  The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and 
  AUTOSURF-PLOT:
