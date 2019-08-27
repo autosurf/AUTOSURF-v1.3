@@ -10,7 +10,6 @@
    Copyright (c) 2019 Missouri University of Science and Technology
 
    This file is part of AUTOSURF.
-   
 -----------------------------------------------------------------------------------
 
  AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
