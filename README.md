@@ -1,5 +1,6 @@
 
 -----------------------------------------------------------------------------------
+
                                  A U T O S U R F      
                                  
 -----------------------------------------------------------------------------------
@@ -41,7 +42,8 @@
  specified energy and coordinate ranges.
 
 -----------------------------------------------------------------------------------
- In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
+
+In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
  are currently not supported) you will need the following:
  ========================================================================
  * A Fortran90 compatible compiler.
