@@ -46,7 +46,7 @@
 
  In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
  are currently not supported) you will need the following:
- ========================================================================
+ 
  * A Fortran90 compatible compiler.
  * MPICH or MPICH2.
  * The Fortran LAPACK Library.
@@ -63,11 +63,12 @@
 
 -----------------------------------------------------------------------------------
 ***********************************************************************************
-******                Welcome to the AUTOSURF Program Suite !                ******         
+                Welcome to the AUTOSURF Program Suite !                         
 ***********************************************************************************
 
 -----------------------------------------------------------------------------------
    Please refer to the following files for further information:
+   
 -----------------------------------------------------------------------------------
    * AUTHORS.tst:   The list of AUTOSURF developers.
    * COPYRIGHT.txt: The license under which AUTOSURF can be used.
