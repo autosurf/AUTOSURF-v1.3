@@ -52,6 +52,10 @@
  * The Fortran LAPACK Library.
  * Electronic structure code (MOLPRO and/or Gaussian).
 
+***********************************************************************************
+                Welcome to the AUTOSURF Program Suite !                         
+***********************************************************************************
+
  The standard AUTOSURF (v1.3) package is distributed as a compressed archive file 
  named autosurf-v1.3.tar.gz, which includes the Fortran source codes of the three 
  programs conforming AUTOSURF. Once the package have been downloaded, the user 
@@ -61,13 +65,10 @@
  installation procedure. Users should read AUTOSURF documentation for more detailed 
  information.
 
------------------------------------------------------------------------------------
-***********************************************************************************
-                Welcome to the AUTOSURF Program Suite !                         
-***********************************************************************************
 
 -----------------------------------------------------------------------------------
-   Please refer to the following files for further information:
+
+ Please refer to the following files for further information:
    
 -----------------------------------------------------------------------------------
    * AUTHORS.tst:   The list of AUTOSURF developers.
@@ -77,12 +78,12 @@
 
 
    Directory structure:
+   
 ========================================================================
-   * SOURCE:        The (Fortran, 90 & 77) source files + Makefiles.
-   * BIN:           The compiled executables.
-   * DOC:           All the documentation related to AUTOSURF (manual & tutorial).
-   * EXAMPLES:      Documented examples INPUTS/OUTPUTS for benchmark systems that 
-                    can be used as a test suite to check the installation.
+   * BIN/           The compiled binaries.
+   * DOC/           Documentation related to AUTOSURF (manual & tutorial).
+   * EXAMPLES/      Documented examples + testing scenarios to check installation. 
+   * SOURCE/        The Fortran (77 & 90) source codes + Makefiles.
 ========================================================================
 
 -----------------------------------------------------------------------------------
