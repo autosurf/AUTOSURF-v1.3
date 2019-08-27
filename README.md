@@ -12,7 +12,6 @@
    This file is part of AUTOSURF.
    
 -----------------------------------------------------------------------------------
------------------------------------------------------------------------------------
 
  AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
  energy surfaces (PES) for vdW systems. The fitting algorithms implemented in the code are 
@@ -28,7 +27,8 @@
  downloading the most recent version of AUTOSURF will be sent to the email address used in 
  the License form.
 
- The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and AUTOSURF-PLOT:
+ The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and 
+ AUTOSURF-PLOT:
  * AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
  the benchmarking of electronic structure methods, and the development of composite 
  schemes such as complete basis set (CBS) extrapolation.
@@ -44,9 +44,8 @@
 
 -----------------------------------------------------------------------------------
 
-In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
+ In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
  are currently not supported) you will need the following:
- 
  ========================================================================
  * A Fortran90 compatible compiler.
  * MPICH or MPICH2.
