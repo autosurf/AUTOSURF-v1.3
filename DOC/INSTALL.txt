@@ -1,0 +1,63 @@
+===================================================================================
+*******************************  A U T O S U R F  *********************************
+===================================================================================
+
+    AUTOSURF Program Suite (v1.3)
+
+    Copyright (c) 2019 Missouri University of Science and Technology
+
+    This file is part of AUTOSURF.
+
+-----------------------------------------------------------------------------------
+===================================================================================
+
+
+-----------------------------------------------------------------------------------
+=====           I N S T A L L A T I O N    I N S T R U C T I O N S            =====
+-----------------------------------------------------------------------------------
+
+
+Basic Installation
+==================
+
+1. AUTOSURF binaries
+
+All you need to install the AUTOSURF suite on a Linux system is a Fortran90 compatible 
+compiler as well as the Fortran LAPACK library. You will also need MPICH or MPICH2.
+
+To compile the fortran source code, first unpack the downloaded distribution in 
+the desired location:
+
+tar -xzvf autosurf-v1.3.tar.gz
+
+This should create a new directory called AUTOSURF, which contains all the 
+necessary subdirectories and files. Now go to the SOURCE directory:
+
+cd AUTOSURF/SOURCE
+
+and edit the files "make-PLOT" (by setting the F90 variable), "make-PES" and "make-ABI"  
+(by adjusting the MPI variable and LD path), to point to the preferred Fortran compiler 
+and to the correct location of the relevant libraries in your system.
+
+Issuing the command:
+
+make -f Make-PES
+
+will compile the source and create the binary: "AUTOSURF-PES.x", and issuing the 
+commands:
+
+make -f Make-PLOT
+
+make -f Make-ABI
+
+will create the binaries: "AUTOSURF-PLOT.x" and "AUTOSURF-ABI.x" respectively.
+The binaries will be automatically copied into the directory: AUTOSURF/BIN. 
+At this point, it is advisable to check whether the generated binaries are 
+correctly flagged as executable; if not (in the binaries directory), type:
+
+chmod a+x *.x 
+
+to make them executable.
+
+The binaries are portable (i.e., it's enough to simply copy and execute them in 
+any desired location to start running AUTOSURF).
