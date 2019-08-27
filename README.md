@@ -63,20 +63,19 @@
 
    Directory structure:
 
-   * BIN/           The compiled binaries.
-   * DOC/           Documentation related to AUTOSURF (manual & tutorial).
-   * EXAMPLES/      Documented examples + testing scenarios to check installation. 
-   * SOURCE/        The Fortran (77 & 90) source codes + Makefiles.
+ * BIN/           The compiled binaries.
+ * DOC/           Documentation related to AUTOSURF (manual & tutorial).
+ * EXAMPLES/      Documented examples + testing scenarios to check installation. 
+ * SOURCE/        The Fortran (77 & 90) source codes + Makefiles.
 
 -----------------------------------------------------------------------------------
 
  Please refer to the following files for further information:
    
-   * AUTHORS.tst:   The list of AUTOSURF developers.
-   * COPYRIGHT.txt: The license under which AUTOSURF can be used.
-   * INSTALL.txt:   Tnstructions to compile and install the program.
------------------------------------------------------------------------------------
-
+   * DOC/AUTHORS.txt:   The list of AUTOSURF developers.
+   * DOC/CHANGES.txt:   Release Notes: history of modifications on each version.
+   * DOC/COPYRIGHT.txt: The License Agreement under which AUTOSURF can be used.
+   * DOC/INSTALL.txt:   Instructions to compile and install the program.
 
 
 
