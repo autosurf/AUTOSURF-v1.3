@@ -21,12 +21,6 @@
  into fitting various classes of PESs and interfaces to popular electronic structure codes 
  such as MOLPRO and GAUSSIAN. 
 
- For non-commercial purposes, there is no charge to obtain AUTOSURF package for academic 
- users (research institutes, universities, individuals), the user must simply sign a License 
- Agreement. The License form can be obtained from the authors by email. The link for 
- downloading the most recent version of AUTOSURF will be sent to the email address used in 
- the License form.
-
  The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and 
  AUTOSURF-PLOT:
  * AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
@@ -65,30 +59,30 @@
  installation procedure. Users should read AUTOSURF documentation for more detailed 
  information.
 
+-----------------------------------------------------------------------------------
+
+   Directory structure:
+
+   * BIN/           The compiled binaries.
+   * DOC/           Documentation related to AUTOSURF (manual & tutorial).
+   * EXAMPLES/      Documented examples + testing scenarios to check installation. 
+   * SOURCE/        The Fortran (77 & 90) source codes + Makefiles.
 
 -----------------------------------------------------------------------------------
 
  Please refer to the following files for further information:
    
------------------------------------------------------------------------------------
    * AUTHORS.tst:   The list of AUTOSURF developers.
    * COPYRIGHT.txt: The license under which AUTOSURF can be used.
    * INSTALL.txt:   Tnstructions to compile and install the program.
 -----------------------------------------------------------------------------------
 
 
-   Directory structure:
-   
-========================================================================
-   * BIN/           The compiled binaries.
-   * DOC/           Documentation related to AUTOSURF (manual & tutorial).
-   * EXAMPLES/      Documented examples + testing scenarios to check installation. 
-   * SOURCE/        The Fortran (77 & 90) source codes + Makefiles.
-========================================================================
+
 
 -----------------------------------------------------------------------------------
    For further information, visit the web page:
-========================================================================
+   
    https://equintas1.wixsite.com/autosurf-pes-rigid4d
 
 
