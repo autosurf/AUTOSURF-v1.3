@@ -45,8 +45,8 @@
 
 -----------------------------------------------------------------------------------
 
-```
-                ####{Welcome to the AUTOSURF Program Suite !}               
+####```
+                Welcome to the AUTOSURF Program Suite !              
 ```
 
  In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
