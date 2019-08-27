@@ -19,10 +19,6 @@
  into fitting various classes of PESs and interfaces to popular electronic structure codes 
  such as MOLPRO and GAUSSIAN. 
 
-```
-Welcome to the AUTOSURF Program Suite !                         
-```
-
  The package (v1.3) is composed of three main programs: AUTOSURF-ABI, AUTOSURF-PES, and 
  AUTOSURF-PLOT:
  * AUTOSURF-ABI performs guided surveys of the PES (various cuts), facilitating 
@@ -48,6 +44,10 @@ Welcome to the AUTOSURF Program Suite !
  information.
 
 -----------------------------------------------------------------------------------
+
+```
+Welcome to the AUTOSURF Program Suite !                         
+```
 
  In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
  are currently not supported) you will need the following:
