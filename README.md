@@ -11,7 +11,11 @@
    This file is part of AUTOSURF.
 
 ***********************************************************************************
-                Welcome to the AUTOSURF Program Suite !                         
+
+```
+Welcome to the AUTOSURF Program Suite !                         
+```
+
 ***********************************************************************************
 
  AUTOSURF is a freely distributed suite of codes for the automated construction of potential 
