@@ -3,11 +3,11 @@
 # A U T O S U R F 
 -----------------------------------------------------------------------------------
 
-###   AUTOSURF Program Suite
+####   AUTOSURF Program Suite
 
-###   Copyright (c) 2019 Missouri University of Science and Technology
+####   Copyright (c) 2019 Missouri University of Science and Technology
 
-###   This file is part of AUTOSURF.
+####   This file is part of AUTOSURF.
 
 -----------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@
 -----------------------------------------------------------------------------------
 
 ```
-                Welcome to the AUTOSURF Program Suite !               
+####                Welcome to the AUTOSURF Program Suite !               
 ```
 
  In order to install and run AUTOSURF suite on a Linux system (Windows and OS X 
