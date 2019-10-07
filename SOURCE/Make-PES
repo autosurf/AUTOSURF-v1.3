@@ -1,0 +1,47 @@
+#===================================================================================
+#*******************************  A U T O S U R F  *********************************
+#===================================================================================
+#
+#    AUTOSURF Program Suite
+#
+#    Copyright (c) 2018 Missouri University of Science and Technology
+#
+#    This file is part of AUTOSURF.
+#
+#-----------------------------------------------------------------------------------
+#===================================================================================
+
+
+#===================================================================================
+# Makefile for AUTOSURF-PES.x 
+# Version 1.0
+# Sept-2018
+#-----------------------------------------------------------------------------------
+# This Makefile will create the executable: AUTOSURF-PES.x
+
+.SUFFIXES: .f .f90 .o
+
+#
+MPI = mpif90
+
+# Comment the following line and uncomment the next one to use intel's MKL Library.
+#LD = -llapack
+LD = -L/opt/intel/compilerpro-12.0.2.137/mkl/lib/intel64/ -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread
+# Note: you probably need to adjust the search path to MKL Library...
+
+CMPLFLG = -c -O3 -lmpi
+OBJS = MODULES_rigid4D.o FUNCTIONS_rigid4D.o diag.o ab_initio.o SUBROUTINES_rigid4D.o AUTOSURF-PES_rigid4D.o
+
+all : PES
+
+PES : $(OBJS) 
+	$(MPI) $(OBJS) -o AUTOSURF-PES.x $(LD)
+	mv AUTOSURF-PES.x ../BIN/
+	rm *.o 
+	rm *.mod 
+
+$(OBJS) :
+.f90.o:
+	$(MPI) $(CMPLFLG) $<
+.f.o:
+	$(MPI) $(CMPLFLG) $<

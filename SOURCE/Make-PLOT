@@ -1,0 +1,43 @@
+#===================================================================================
+#*******************************  A U T O S U R F  *********************************
+#===================================================================================
+#
+#    AUTOSURF Program Suite
+#
+#    Copyright (c) 2018 Missouri University of Science and Technology
+#
+#    This file is part of AUTOSURF.
+#
+#-----------------------------------------------------------------------------------
+#===================================================================================
+
+
+#===================================================================================
+# Makefile for AUTOSURF 
+# Version 1.0
+# Sept-2018
+#-----------------------------------------------------------------------------------
+# This Makefile will create the executable: AUTOSURF-PLOT.x
+
+.SUFFIXES: .f .f90 .o
+
+# Comment one of the following lines:
+F90 = ifort    # compile with ifort
+#F90 = gfortran # compile with gfortran
+
+CMPLFLG = -c -O3
+OBJS = MODULES_rigid4D.o AUTOSURF-PLOT_rigid4D.o diag.o POTEN_rigid4D.o 
+
+all : PLOT
+
+PLOT : $(OBJS)
+	$(F90) $(OBJS) -o AUTOSURF-PLOT.x
+	mv AUTOSURF-PLOT.x ../BIN/
+	rm *.o 
+	rm *.mod 
+
+$(OBJS) :
+.f90.o:
+	$(F90) $(CMPLFLG) $<
+.f.o:
+	$(F90) $(CMPLFLG) $<

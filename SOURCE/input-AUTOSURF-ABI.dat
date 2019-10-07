@@ -1,0 +1,77 @@
+*****    This is an input file for "AUTOSURF-ABI" PROGRAM    *****
+
+# GENERAL INFORMATION:
+----------------------
+CO2dimer        ! System LABEL. Maximum 15 char. It must be at least one empty space after the LABEL
+4               ! [code_flag] 1=Gaussian, (2=CFOUR, 3=NWCHEM, not yet implemented) 4=Molpro2012, 5=Molpro2015 
+1               ! [ab_flag] 1= single point energies; 2= also gradients.
+1               ! [nabi] number of ab initio scripts ("molproX.abi") to be used
+
+# FRAGMENTS INFORMATION:
+------------------------
+1               ! [exch] are the two fragments identical? 1=yes, 0=no
+1               ! [flip1] is frag. 1 symmetric upon 180 degree flip (e.g. CO2)? 1=yes, 0=no
+1               ! [flip2] is frag. 2 symmetric upon 180 degree flip? 1=yes, 0=no
+3               ! [natom1] number of atoms in fragment 1
+3               ! [natom2] number of atoms in fragment 2 
+O1              ! element label for atom 1, e.g. 'H1'
+C1              ! element label for atom 2, e.g. 'H2'
+O2              ! element label for atom 3
+O3              ! ...
+C2              ! 
+O4              ! 
+15.9949146221d0 ! mass of atom 1 (atomic mass units)
+12d0            ! mass of atom 2
+15.9949146221d0 ! ...
+15.9949146221d0 !
+12d0            ! 
+15.9949146221d0 ! 
+0d0             ! atom 1, Cartesian coordinates (fragment 1, atoms placed along z-axis) (Angstroms)
+0d0             ! ...
+0d0             ! 
+0d0             ! atom 2, Cartesian coordinates
+0d0             ! ...
+1.162086d0      ! 
+0d0             ! atom 3, Cartesian coordinates
+0d0             ! ...
+2.324172d0      ! 
+0d0             ! atom 4, Cartesian coordinates (fragment 2, atoms placed along z-axis)
+0d0             ! ...
+0d0             ! 
+0d0             ! atom 5, Cartesian coordinates
+0d0             ! ...
+1.162086d0      ! 
+0d0             ! atom 6, Cartesian coordinates
+0d0             ! ...
+2.324172d0      ! 
+
+# CODE CONTROL:
+---------------
+1               ! [xcontrol] read the geometries to compute from the input file: "GEOMETRIES.dat"
+13              ! [numpoints] number of ab initio geometries in the file "GEOMETRIES.dat"
+
+
+
+
+EXAMPLES FOR THE "CODE CONTROL" SECTION:
+****************************************
+
+---------------
+1               ! [xcontrol] read the geometries to compute from the input file: "GEOMETRIES.dat"
+2               ! [numpoints] number of ab initio geometries in the file "GEOMETRIES.dat"
+
+---------------
+21              ! [xcontrol] make 1D cut of the PES (U vs. R)
+3               ! [numpoints] number of ab initio points to compute 
+45              ! [th1] value of theta1 (deg.)
+45              ! [th2] value of theta2 (deg.)
+45              ! [phi] value of phi (deg.)
+4               ! [xrmin] min. value of R
+6               ! [xrmax] max. value of R
+
+---------------
+0               ! [xcontrol] ab initio energy for the same geometry, and different Molpro header if 'nabi'>1 
+45              ! [th1] value of theta1 (deg.)
+45              ! [th2] value of theta2 (deg.)
+45              ! [phi] value of phi (deg.)
+4.5             ! [xRR] min. value of R
