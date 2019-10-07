@@ -1,0 +1,84 @@
+ All processes are alive!
+ *** High-level ab initio seed-grid have been computed.
+ Lowest energy in the grid:      -236156.612
+ Highest energy in the grid:     -235860.573
+ Largest R: 14.982 Ref. asymptote energy:   -236154.955
+ Maximum energy allowed above asymptote:    -236147.755
+ energy excluded from HGRID:           11  -236127.728577420     
+ energy excluded from HGRID:           19  -236137.709579330     
+ energy excluded from HGRID:           38  -236122.450679320     
+ energy excluded from HGRID:           54  -236144.593496930     
+ energy excluded from HGRID:           60  -236131.651230750     
+ energy excluded from HGRID:           65  -236128.504077470     
+ energy excluded from HGRID:           76  -236135.669660860     
+ energy excluded from HGRID:           99  -235970.020970010     
+ energy excluded from HGRID:          124  -236123.221060150     
+ energy excluded from HGRID:          225  -236070.577955680     
+ energy excluded from HGRID:          233  -236128.865501590     
+ energy excluded from HGRID:          279  -236116.520645770     
+ energy excluded from HGRID:          287  -236106.849887050     
+ energy excluded from HGRID:          317  -235909.886358120     
+ energy excluded from HGRID:          384  -236134.191165710     
+ energy excluded from HGRID:          387  -236128.267520830     
+ energy excluded from HGRID:          388  -236106.503134100     
+ energy excluded from HGRID:          404  -236130.987458130     
+ energy excluded from HGRID:          416  -236055.600646780     
+ energy excluded from HGRID:          419  -236134.364783780     
+ energy excluded from HGRID:          447  -235860.573170960     
+ energy excluded from HGRID:          463  -236139.943402610     
+ energy excluded from HGRID:          468  -236126.705893220     
+ energy excluded from HGRID:          501  -236065.792634320     
+ energy excluded from HGRID:          516  -236141.716408040     
+ energy excluded from HGRID:          526  -236136.293688280     
+ energy excluded from HGRID:          531  -236139.273885140     
+ energy excluded from HGRID:          558  -236110.360330670     
+ energy excluded from HGRID:          602  -236147.714930490     
+ energy excluded from HGRID:          607  -236147.524512110     
+ energy excluded from HGRID:          613  -236146.551038460     
+ energy excluded from HGRID:          615  -236147.481279220     
+ energy excluded from HGRID:          621  -236146.034771360     
+ energy excluded from HGRID:          625  -236147.218805810     
+ energy excluded from HGRID:          626  -236146.276223830     
+ energy excluded from HGRID:          628  -236147.063787750     
+ energy excluded from HGRID:          631  -236146.793470470     
+ energy excluded from HGRID:          641  -236146.142273770     
+ energy excluded from HGRID:          646  -236147.674298620     
+ energy excluded from HGRID:          648  -236143.279667170     
+ energy excluded from HGRID:          652  -236147.425218150     
+ energy excluded from HGRID:          658  -236146.857379800     
+ energy excluded from HGRID:          660  -236146.036058380     
+ energy excluded from HGRID:          670  -236147.055417400     
+ energy excluded from HGRID:          672  -236146.288194830     
+ energy excluded from HGRID:          690  -236147.285304870     
+ energy excluded from HGRID:          691  -236147.314606420     
+ energy excluded from HGRID:          704  -236147.146076210     
+ energy excluded from HGRID:          716  -236147.316947660     
+ energy excluded from HGRID:          726  -236147.469823400     
+ energy excluded from HGRID:          743  -236147.494991550     
+ energy excluded from HGRID:          744  -236147.712996500     
+ Total number of points in the fit:               16832
+ High-level-seed-PES completed.
+ 
+ ***  START AUTOMATIC DATA POINT GENERATION  ***
+ 
+ Loop:            0
+ Num. minimization starting points:         524
+ Selected geometries (and estimated energy)
+         1    9.91497754    0.99985309    0.99960069    2.55426983       -236154.92558670
+         2   10.60815425    0.99990000    0.99515947    2.15302360       -236154.93598813
+         3   10.14358558    0.95293069    0.99988788    0.95048518       -236154.93998606
+         4   11.36750771    0.99990000    0.99621924    0.05849779       -236154.94222022
+         5   10.64222275    0.91208405    0.90250575    3.00305099       -236154.95140397
+         6    9.80192723    0.99990000    0.92977378    0.36090799       -236154.94501124
+         7   11.35314228    0.89965547    0.90154344    3.02527846       -236154.95324258
+         8   12.13267451    0.99990000    0.99647054    2.30288854       -236154.94820220
+         9    9.10075894    0.98731105    0.95656945    0.82927435       -236154.95707835
+        10   10.83126907    0.90789491    0.91441945    0.28440404       -236154.95557789
+        11   10.82559547    0.91977508    0.99989999    1.80916272       -236154.94718395
+        12    9.80276511    0.91025983    0.88709513    3.03318650       -236154.94848677
+         highest E:  -236147.804168610     
+  ** Points used to fit:        1064
+    + symmetry partners:       17024
+ 
+ Loop:            1
+ The PES is complete! Preparing summary...

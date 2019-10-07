@@ -1,0 +1,15 @@
+*** title
+memory,350,m
+GTHRESH,energy=1d-9
+geomtyp=xyz
+basis=avdz
+{hf;maxit,1000}
+MP2
+
+---
+blahblah=energy
+{table,'MOLPRO_ENERGY',blahblah
+digits,9,9
+heading,ignore,ignore2}
+----
+
